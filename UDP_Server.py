@@ -15,11 +15,14 @@ Date: May 2016
 UDP Server for the Cluster
 '''
 #--[PROGRAM-OPTIONS]------------------------------------------------------#
-import socket
-from time import gmtime, strftime, sleep
-from astropy.table import Table
-import sys
 import os
+import socket
+import sys
+
+from astropy.table import Table
+from time import gmtime
+from time import sleep
+from time import strftime
 LOG_FILE = '/home/sol/CLUSTER_RAID/'
 #--[PROGRAM-OPTIONS]------------------------------------------------------#
 '''

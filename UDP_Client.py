@@ -21,7 +21,8 @@ UDP Client for the Cluster
 
 #--[PROGRAM-OPTIONS]------------------------------------------------------#
 
-from subprocess import PIPE, Popen
+from subprocess import PIPE
+from subprocess import Popen
 
 import psutil
 
